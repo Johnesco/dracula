@@ -1,0 +1,24 @@
+# Compiled Inform 7 game (large binary, rebuild from story.ni)
+*.ulx
+*.materials/
+
+# Inform 7 IDE project wrappers
+*.inform/
+
+# Claude Code local settings
+.claude/
+
+# OS generated files
+$RECYCLE.BIN/
+[Dd]esktop.ini
+.DS_Store
+Thumbs.db
+*~
+.*.sw[op]
+
+# IDE
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
