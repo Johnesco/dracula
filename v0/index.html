@@ -28,10 +28,32 @@ a:hover { color: #ffe8a0; border-bottom-color: #aa9966; }
 <div class="subtitle">v0 — Original BASIC</div>
 <p>
   The original 1980s BASIC text adventure, playable in your browser via
-  <a href="https://github.com/google/wwwbasic">wwwBASIC</a>.
-  You can also browse the source with syntax highlighting and annotations explaining
-  the game engine, data structures, and puzzle logic.
+  <a href="https://github.com/google/wwwbasic">wwwBASIC</a> (Google's JavaScript
+  BASIC interpreter). You can also browse the source with syntax highlighting and
+  annotations explaining the game engine, data structures, and puzzle logic.
 </p>
+<h2 style="font-size:1.1em; color:#c4b48a; margin:28px 0 8px;">Porting Notes</h2>
+<p>
+  The original game was written for GW-BASIC. wwwBASIC compiles BASIC to JavaScript
+  at load time and renders to a canvas using a CP437 bitmap font. Several compatibility
+  fixes were needed:
+</p>
+<ul style="color:#b0a080; margin-bottom:16px; padding-left:20px;">
+  <li><strong>Scalar/array name collision</strong> — GW-BASIC treats <code>L</code> (scalar)
+    and <code>L()</code> (array) as separate variables; wwwBASIC shares one namespace, so
+    assigning the room number to <code>L</code> corrupted the object-location array's memory.
+    Fixed by renaming the array to <code>OB()</code>.</li>
+  <li><strong><code>NEXT X,Y</code></strong> — not supported; split to
+    <code>NEXT X:NEXT Y</code>.</li>
+  <li><strong>Implicit PRINT separators</strong> — GW-BASIC allows
+    <code>PRINT A$", "</code>; wwwBASIC requires an explicit semicolon.</li>
+  <li><strong><code>RUN 0</code></strong> — not supported; replaced with
+    <code>GOTO 0</code>.</li>
+  <li><strong>PRINT newline clears to EOL</strong> — wwwBASIC fills the rest of the row
+    with spaces; added trailing <code>;</code> on lines that overlay the castle art.</li>
+  <li><strong><code>TAB(n)</code> produces tab chars</strong> — patched wwwbasic.js to
+    emit spaces instead (tab glyphs render as white squares).</li>
+</ul>
 <div class="links">
   <a href="play.html">Play Original BASIC</a>
   <a href="source.html">Browse Source</a>
