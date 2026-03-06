@@ -1,122 +1,216 @@
-## Opening Moves -- Get the Bucket
+## Library
 
 > east
 > push bookcase
+
+## Hidden Corridor
+
 > down
 > get rope
+
+## Alchemist's Lab
+
 > north
+
+## Storeroom
+
 > south
 > get bucket
 
-## Return to Main Castle
+## Alchemist's Lab
 
 > south
+
+## Hidden Corridor
+
 > east
+
+## Library
+
 > up
 
-## Tower and Chapel -- Get Holy Water
+## Armory
 
 > east
+
+## Tower
+
 > east
 > tie rope to parapets
 > down
+
+## Chapel
+
 > south
 > get holywater
 > drop bucket
 
-## Extinguish the Fireplace
+## Armory
 
 > up
+
+## Library
+
 > west
+
+## Entrance Hall
+
 > west
+
+## Study
+
 > west
 > drop holywater
-
-## Gather Supplies
-
 > get cheese
+
+## Entrance Hall
+
 > east
+
+## Library
+
 > east
+
+## Hidden Corridor
+
 > down
+
+## Alchemist's Lab
+
 > north
 > get oil
+
+## Storeroom
+
 > south
 > get crate
+
+## Alchemist's Lab
+
 > south
+
+## Hidden Corridor
+
 > east
+
+## Library
+
 > up
+
+## Armory
+
 > east
 > get axe
+
+## Tower
+
 > east
 > get hammer
 > down
 > get oar
-
-## Enter the Underground
-
 > up
+
+## Armory
+
 > west
+
+## Library
+
 > west
+
+## Entrance Hall
+
 > west
+
+## Study
+
 > west
+
+## Brick Fireplace
+
 > in
 > drop axe
 > get torch
 > hit wall with hammer
 
-## Torture Chamber -- Get the Key
+## Secret Passage
 
 > north
+
+## Torture Chamber
+
 > west
 > drop cheese
 > examine rat
 > take key
 
-## Cross the Underground Lake
+## Secret Passage
 
 > east
+
+## Underground Lake Chamber
+
 > north
 > enter boat
 > row
-
-## Gallery and Overhang -- Clear the Path
-
 > drop crate
 > drop oil
 > up
 > take nails
+
+## Gallery
+
 > down
 > drop hammer
 > drop nails
 > take tapestry
 > drop tapestry
-
-## Oil the Rusty Door
-
 > take oil
+
+## Antechamber
+
 > north
 > oil door
 
-## Return Trip -- Make the Stakes
+## Gallery
 
 > south
 > take crate
 > enter boat
 > row
+
+## Secret Passage
+
 > east
+
+## Brick Fireplace
+
 > south
 > get axe
 > hit crate with axe
 > drop axe
 
-## Final Approach -- Kill Dracula
+## Secret Passage
 
 > north
+
+## Underground Lake Chamber
+
 > north
 > enter boat
 > row
 > drop oar
+
+## Antechamber
+
 > north
+
+## Dracula's Tomb
+
 > north
 > open coffin
+
+## Congratulations! You have KILLED Dracula at  9:26 p.m.!
+
+# GAME WON
 > attack coffin
