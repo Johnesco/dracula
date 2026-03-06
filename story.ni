@@ -43,16 +43,16 @@ Part 3 - Rooms
 
 Chapter 1 - Main Castle East-West Corridor
 
-The Entrance Hall is a room. "You are in the Entrance Hall."
+The Entrance Hall is a room. "You are in the Entrance Hall of a dark castle. A sign hangs on the wall."
 The player is in the Entrance Hall.
 
-The Study is west of the Entrance Hall. "You are in the Study."
+The Study is west of the Entrance Hall. "You are in the Study. [if the fire-extinguished is false]A fire crackles in a large brick fireplace.[otherwise]Smoldering ashes fill a large brick fireplace.[end if]"
 
-The Library is east of the Entrance Hall. "You are in the Library."
+The Library is east of the Entrance Hall. "You are in the Library. A large bookcase lines one wall."
 
 The Armory is east of the Library. "You are in the Armory."
 
-The Tower is east of the Armory. "You are in the Tower."
+The Tower is east of the Armory. "You are in the Tower. [if the rope-on-parapet is true]A rope is tied to the stone parapets, leading down.[otherwise]Stone parapets overlook a dizzying drop.[end if]"
 
 Chapter 2 - Lower Tower and Chapel
 
@@ -70,7 +70,7 @@ Instead of going up in the Chapel:
 
 Chapter 3 - Fireplace Area
 
-The Brick Fireplace Room is a room. The printed name is "Brick Fireplace". "You are in a Brick Fireplace."
+The Brick Fireplace Room is a room. The printed name is "Brick Fireplace". "[if the fireplace-broken is true]You are in a Brick Fireplace. The wall has been smashed open, revealing a passage to the north.[otherwise]You are in a Brick Fireplace. Solid brickwork surrounds you.[end if]"
 
 [Brick Fireplace Room: south goes to Study (one-way)]
 Instead of going south in the Brick Fireplace Room:
@@ -118,7 +118,7 @@ Instead of going south in the Secret Passage:
 Instead of going west in the Secret Passage:
 	now the player is in the Torture Chamber.
 
-The Underground Lake Chamber is a dark room. "You are in an Underground Lake Chamber."
+The Underground Lake Chamber is a dark room. "You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you.[if the wooden boat is in the Underground Lake Chamber] A small wooden boat sits at the water's edge.[end if]"
 
 Instead of going east in the Underground Lake Chamber:
 	now the player is in the Secret Passage.
@@ -158,7 +158,7 @@ The Overhang is a room. "You are on an Overhang high above the Gallery."
 Instead of going down in the Overhang:
 	now the player is in the Gallery.
 
-The Gallery is a room. "You are in the Gallery."
+The Gallery is a room. "You are in the Gallery.[if the wooden boat is in the Gallery] A small wooden boat is moored at the water's edge.[end if]"
 
 The tapestry-removed is a truth state that varies. The tapestry-removed is false.
 
@@ -170,7 +170,7 @@ Instead of going north in the Gallery:
 
 Chapter 9 - Dracula's Domain
 
-The Antechamber is a room. "You are in the Antechamber."
+The Antechamber is a room. "You are in the Antechamber. [if the door-opened is true]An open door leads north.[otherwise]A rusty iron door blocks the way north.[end if]"
 
 Instead of going south in the Antechamber:
 	now the player is in the Gallery.
@@ -183,14 +183,14 @@ Instead of going north in the Antechamber:
 	otherwise:
 		say "You can't go that way."
 
-Draculas Tomb is a dark room. The printed name is "Dracula's Tomb". "You are in Dracula's Tomb."
+Draculas Tomb is a dark room. The printed name is "Dracula's Tomb". "You are in Dracula's Tomb. [if the coffin-open is true]An open coffin dominates the chamber. Dracula lies within![otherwise]A large closed coffin dominates the chamber.[end if]"
 
 Instead of going south in Draculas Tomb:
 	now the player is in the Antechamber.
 
 Chapter 10 - Torture Chamber
 
-The Torture Chamber is a room. "You are in the Torture Chamber."
+The Torture Chamber is a room. "You are in the Torture Chamber. A rat scurries about in the shadows."
 
 Instead of going east in the Torture Chamber:
 	now the player is in the Secret Passage.

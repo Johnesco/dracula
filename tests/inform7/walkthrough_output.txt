@@ -16,10 +16,10 @@ Direction abbreviations: N, S, E, W, U, D.
 
 Dracula's Castle
 An Interactive Adventure by Anonymous
-Release 1 / Serial number 260304 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 260305 / Inform 7 v10.1.2 / D
 
 Entrance Hall
-You are in the Entrance Hall.
+You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
 
 You can see a timepiece here.
 
@@ -27,7 +27,7 @@ Obvious exits are: East West
 
 >
 Library
-You are in the Library.
+You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
@@ -73,7 +73,7 @@ You are in a Hidden Corridor.
 Obvious exits are: North Up 
 
 >Library
-You are in the Library.
+You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
@@ -89,7 +89,7 @@ Obvious exits are: East West
 
 >
 Tower
-You are in the Tower.
+You are in the Tower. Stone parapets overlook a dizzying drop.
 
 You can see a sledge hammer here.
 
@@ -127,7 +127,7 @@ Obvious exits are: East West
 
 >
 Library
-You are in the Library.
+You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
@@ -135,7 +135,7 @@ Obvious exits are: East West Down
 
 >
 Entrance Hall
-You are in the Entrance Hall.
+You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
 
 You can see a timepiece here.
 
@@ -143,7 +143,7 @@ Obvious exits are: East West
 
 >
 Study
-You are in the Study.
+You are in the Study. A fire crackles in a large brick fireplace.
 
 You can see a wine and a cheddar cheese here.
 
@@ -155,7 +155,7 @@ Obvious exits are: East
 
 >
 Entrance Hall
-You are in the Entrance Hall.
+You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
 
 You can see a timepiece here.
 
@@ -163,7 +163,7 @@ Obvious exits are: East West
 
 >
 Library
-You are in the Library.
+You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
@@ -203,7 +203,7 @@ You are in a Hidden Corridor.
 Obvious exits are: North Up 
 
 >Library
-You are in the Library.
+You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
@@ -221,7 +221,7 @@ Obvious exits are: East West
 
 >
 Tower
-You are in the Tower.
+You are in the Tower. A rope is tied to the stone parapets, leading down.
 
 You can see a sledge hammer here.
 
@@ -241,7 +241,7 @@ Obvious exits are: South Up
 >Taken.
 
 >Tower
-You are in the Tower.
+You are in the Tower. A rope is tied to the stone parapets, leading down.
 
 Obvious exits are: West Down 
 
@@ -253,7 +253,7 @@ Obvious exits are: East West
 
 >
 Library
-You are in the Library.
+You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
@@ -261,7 +261,7 @@ Obvious exits are: East West Down
 
 >
 Entrance Hall
-You are in the Entrance Hall.
+You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
 
 You can see a timepiece here.
 
@@ -269,14 +269,14 @@ Obvious exits are: East West
 
 >
 Study
-You are in the Study.
+You are in the Study. Smoldering ashes fill a large brick fireplace.
 
 You can see a wine here.
 
 Obvious exits are: East 
 
 >Brick Fireplace
-You are in a Brick Fireplace.
+You are in a Brick Fireplace. Solid brickwork surrounds you.
 
 You can see a torch here.
 
@@ -294,7 +294,7 @@ You are in a Secret Passage.
 Obvious exits are: North South West 
 
 >Torture Chamber
-You are in the Torture Chamber.
+You are in the Torture Chamber. A rat scurries about in the shadows.
 
 Obvious exits are: East West 
 
@@ -312,7 +312,7 @@ You are in a Secret Passage.
 Obvious exits are: North South West 
 
 >Underground Lake Chamber
-You are in an Underground Lake Chamber.
+You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you. A small wooden boat sits at the water's edge.
 
 Obvious exits are: East 
 
@@ -346,7 +346,7 @@ Obvious exits are: Down
 >Using the hammer, you pry the nails loose. The tapestry is loose!
 
 >Gallery
-You are in the Gallery.
+You are in the Gallery. A small wooden boat is moored at the water's edge.
 
 You can see a flask of oil, a crate and a tapestry here.
 
@@ -361,14 +361,14 @@ You can see a flask of oil, a crate and a tapestry here.
 >Taken.
 
 >Antechamber
-You are in the Antechamber.
+You are in the Antechamber. A rusty iron door blocks the way north.
 
 Obvious exits are: South 
 
 >The door squeaks open!
 
 >Gallery
-You are in the Gallery.
+You are in the Gallery. A small wooden boat is moored at the water's edge.
 
 You can see a tapestry, a nails, a sledge hammer and a crate here.
 
@@ -386,7 +386,7 @@ Obvious exits are: East
 >You row across the underground lake...
 
 Underground Lake Chamber
-You are in an Underground Lake Chamber.
+You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you.
 
 Obvious exits are: East 
 
@@ -396,7 +396,7 @@ You are in a Secret Passage.
 Obvious exits are: North South West 
 
 >Brick Fireplace
-You are in a Brick Fireplace.
+You are in a Brick Fireplace. The wall has been smashed open, revealing a passage to the north.
 
 You can see an axe here.
 
@@ -414,7 +414,7 @@ You are in a Secret Passage.
 Obvious exits are: North South West 
 
 >Underground Lake Chamber
-You are in an Underground Lake Chamber.
+You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you. A small wooden boat sits at the water's edge.
 
 Obvious exits are: East 
 
@@ -437,12 +437,12 @@ Obvious exits are: North
 >Dropped.
 
 >Antechamber
-You are in the Antechamber.
+You are in the Antechamber. An open door leads north.
 
 Obvious exits are: North South 
 
 >Dracula's Tomb
-You are in Dracula's Tomb.
+You are in Dracula's Tomb. A large closed coffin dominates the chamber.
 
 Obvious exits are: South 
 
