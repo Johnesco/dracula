@@ -977,7 +977,7 @@ async function loadBasic() {
 
   try {
     // Load annotated file (superset — contains original lines and @@ annotations)
-    const res = await fetch('../src/basic/dracula-annotated.bas');
+    const res = await fetch('src/basic/dracula-annotated.bas');
     if (!res.ok) throw new Error(res.status);
     const source = await res.text();
     const allLines = source.split('\n');
@@ -1049,7 +1049,7 @@ async function loadInform() {
   const lcEl = document.getElementById('lc-inform');
 
   try {
-    const res = await fetch('../src/inform/story.ni');
+    const res = await fetch('story.ni');
     if (!res.ok) throw new Error(res.status);
     const source = await res.text();
     const lines = source.split('\n');
