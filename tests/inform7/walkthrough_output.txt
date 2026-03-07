@@ -16,7 +16,7 @@ Direction abbreviations: N, S, E, W, U, D.
 
 Dracula's Castle
 An Interactive Adventure by Anonymous
-Release 1 / Serial number 260305 / Inform 7 v10.1.2 / D
+Release 1 / Serial number 260306 / Inform 7 v10.1.2 / D
 
 Entrance Hall
 You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
@@ -460,9 +460,9 @@ Congratulations! You have KILLED Dracula at  9:26 p.m.!
 In that game you scored 1 out of a possible 1, in 87 turns.
 
 
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last command or REWIND?
 > Please give one of the answers above.
 
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last command or REWIND?
 > 
 <end of input>

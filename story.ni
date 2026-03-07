@@ -7,7 +7,7 @@ The story description is "Explore Dracula's Castle and uncover its dark secret b
 
 Part 1 - Configuration
 
-The carrying capacity of the player is 6.
+The carrying capacity of the player is 7.
 
 Use scoring.
 The maximum score is 1.
@@ -326,7 +326,6 @@ Instead of taking the rusty key:
 	if the cheddar cheese is in the location:
 		say "The rat takes the cheese and drops the key. You got the key!";
 		now the player carries the rusty key;
-		remove the cheddar cheese from play;
 	otherwise:
 		say "The rat has it! Perhaps something could lure it away."
 
@@ -527,6 +526,12 @@ Instead of opening the closed coffin:
 	say "You unlock and open the coffin... Dracula lies within!";
 	now the coffin-open is true.
 
+Instead of opening the rusty door:
+	if the door-opened is true:
+		say "The door is already open.";
+	otherwise:
+		say "Too much rust... it won't budge."
+
 Chapter 19 - Killing Dracula
 
 Killing it with is an action applying to one visible thing and one carried thing.
@@ -553,6 +558,13 @@ Instead of killing the closed coffin with something:
 	end the story finally saying "You have won".
 
 Chapter 20 - Swimming
+
+Throwing it away is an action applying to one carried thing.
+Understand "throw [something]" as dropping.
+
+After reading a command:
+	if the player's command matches "climb down", replace the player's command with "go down";
+	if the player's command matches "climb up", replace the player's command with "go up".
 
 Swimming is an action applying to nothing.
 Understand "swim" as swimming.
@@ -588,6 +600,23 @@ After looking:
 		let exit-list be "[exit-list]Down ";
 	if exit-list is not "":
 		say "Obvious exits are: [exit-list][line break]".
+
+Chapter - Easter Egg Rewind
+
+[In the original BASIC, typing "R" at the death prompt rewinds 2 minutes and resumes play.]
+
+Table of Final Question Options (continued)
+final question wording	only if victorious	topic	final response rule	final response activity
+"REWIND"	false	"rewind"	rewind-time rule	--
+
+This is the rewind-time rule:
+	resume the story;
+	decrease the game-minute by 2;
+	if the game-minute < 0:
+		decrease the game-hour by 1;
+		now the game-minute is the game-minute plus 60;
+	say "Time rewinds...[paragraph break]";
+	try looking.
 
 When play begins:
 	say "[bold type]W E L C O M E[roman type][line break]";

@@ -736,26 +736,29 @@
     }
 
     function ReserveArrayCell(name) {
-      if (vars[name] === undefined &&
-          global_vars[name] == undefined) {
+      // GW-BASIC treats X (scalar) and X() (array) as separate variables.
+      // Store arrays under name + '#a' to avoid collisions.
+      var aname = name + '#a';
+      if (vars[aname] === undefined &&
+          global_vars[aname] == undefined) {
         var offset = Allocate(4 + MAX_DIMENSIONS * 4 * 2);
-        vars[name] = {
+        vars[aname] = {
           offset: offset,
           dimensions: null,
           type_name: null,
           global: vars === global_vars,
         };
         var boffset = offset;
-        if (!vars[name].global) {
+        if (!vars[aname].global) {
           boffset = '(bp+' + boffset + ')';
         }
-        var_decls += '// ' + name + ' is at ' + ArrayPart(boffset, 0) +
+        var_decls += '// ' + name + '() is at ' + ArrayPart(boffset, 0) +
           ' (cell-addr: ' + offset + ')\n';
       }
-      if (vars[name] !== undefined) {
-        return vars[name];
+      if (vars[aname] !== undefined) {
+        return vars[aname];
       }
-      return global_vars[name];
+      return global_vars[aname];
     }
 
     function ImplicitDimArray(name) {
@@ -775,7 +778,7 @@
         parts.push('((' + dimensions[i][1] + ')-(' + dimensions[i][0] + ')+1)');
       }
       if (!is_declare) {
-        if (!vars[name].global) {
+        if (!vars[name + '#a'].global) {
           offset = '(bp+' + offset + ')';
         }
         curop += '// Allocate ' + name + '\n';
@@ -804,7 +807,7 @@
         curop += '}\n';
         NewOp();
       }
-      vars[name] = {
+      vars[name + '#a'] = {
         offset: offset,
         dimensions: dimensions.length > 0 ? dimensions.length : -1,
         type_name: type_name,
@@ -866,7 +869,8 @@
         Skip('as');
         type_name = TypeName();
       }
-      if (vars[name] !== undefined && vars[name].dimensions != null) {
+      var dup_name = is_scalar ? name : (name + '#a');
+      if (vars[dup_name] !== undefined && vars[dup_name].dimensions != null) {
         if (redim) {
           return;
         }
@@ -983,7 +987,15 @@
     }
 
     function IndexVariable(name, assignable, argument_to_function) {
-      var v = MaybeImplicitDimVariable(name, argument_to_function);
+      // GW-BASIC: X (scalar) and X() (array) are separate variables.
+      // If this is an array access, look up the '#a' key first.
+      var v;
+      if (!argument_to_function && tok == '(') {
+        var arr_v = vars[name + '#a'] || global_vars[name + '#a'];
+        v = arr_v || MaybeImplicitDimVariable(name, argument_to_function);
+      } else {
+        v = MaybeImplicitDimVariable(name, argument_to_function);
+      }
       var offset = v.offset;
       if (!v.global) {
         if (argument_to_function) {

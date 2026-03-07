@@ -42,7 +42,7 @@ a:hover { color: #ffe8a0; border-bottom-color: #aa9966; }
   <li><strong>Scalar/array name collision</strong> — GW-BASIC treats <code>L</code> (scalar)
     and <code>L()</code> (array) as separate variables; wwwBASIC shares one namespace, so
     assigning the room number to <code>L</code> corrupted the object-location array's memory.
-    Fixed by renaming the array to <code>OB()</code>.</li>
+    Patched wwwbasic.js to store array variables under a separate internal key.</li>
   <li><strong><code>NEXT X,Y</code></strong> — not supported; split to
     <code>NEXT X:NEXT Y</code>.</li>
   <li><strong>Implicit PRINT separators</strong> — GW-BASIC allows
