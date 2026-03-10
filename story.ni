@@ -58,11 +58,19 @@ Chapter 2 - Lower Tower and Chapel
 
 The Lower Tower is a room. "You are in the Lower Tower."
 
-The Chapel is south of the Lower Tower. "You are in the Chapel."
+The Chapel is a room. "You are in the Chapel."
+
+[Lower Tower: north goes to Chapel (non-euclidean — Chapel also goes north to Lower Tower)]
+Instead of going north in the Lower Tower:
+	now the player is in the Chapel.
 
 [Lower Tower: up goes to Tower (one-way, no reciprocal down from Tower)]
 Instead of going up in the Lower Tower:
 	now the player is in the Tower.
+
+[Chapel: north goes to Lower Tower (non-euclidean — both rooms go north to each other)]
+Instead of going north in the Chapel:
+	now the player is in the Lower Tower.
 
 [Chapel: up goes to Armory (one-way)]
 Instead of going up in the Chapel:
@@ -120,7 +128,8 @@ Instead of going west in the Secret Passage:
 
 The Underground Lake Chamber is a dark room. "You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you.[if the wooden boat is in the Underground Lake Chamber] A small wooden boat sits at the water's edge.[end if]"
 
-Instead of going east in the Underground Lake Chamber:
+[ULC: south goes to Secret Passage (matches BASIC)]
+Instead of going south in the Underground Lake Chamber:
 	now the player is in the Secret Passage.
 
 Chapter 6 - The Boat
@@ -136,10 +145,11 @@ Chapter 7 - Alchemist Area
 
 The Alchemists Lab is a room. The printed name is "Alchemist's Lab". "You are in an Alchemist's Lab."
 
-Instead of going south in the Alchemists Lab:
+[Alchemist's Lab: north to Storeroom, south to Hidden Corridor (matches BASIC)]
+Instead of going north in the Alchemists Lab:
 	now the player is in the Storeroom.
 
-Instead of going east in the Alchemists Lab:
+Instead of going south in the Alchemists Lab:
 	now the player is in the Hidden Corridor.
 
 The Storeroom is a room. "You are in a Storeroom."
@@ -586,11 +596,11 @@ Instead of going nowhere:
 After looking:
 	let exit-list be a text;
 	let exit-list be "";
-	if the room north from the location is not nothing or (the location is the Gallery and the tapestry-removed is true) or (the location is the Antechamber and the door-opened is true) or (the location is the Brick Fireplace Room and the fireplace-broken is true) or (the location is the Hidden Corridor) or (the location is the Secret Passage):
+	if the room north from the location is not nothing or (the location is the Gallery and the tapestry-removed is true) or (the location is the Antechamber and the door-opened is true) or (the location is the Brick Fireplace Room and the fireplace-broken is true) or (the location is the Hidden Corridor) or (the location is the Secret Passage) or (the location is the Lower Tower) or (the location is the Chapel) or (the location is the Alchemists Lab):
 		let exit-list be "[exit-list]North ";
-	if the room south from the location is not nothing or (the location is the Brick Fireplace Room) or (the location is the Alchemists Lab) or (the location is the Storeroom) or (the location is the Antechamber) or (the location is Draculas Tomb) or (the location is the Secret Passage):
+	if the room south from the location is not nothing or (the location is the Brick Fireplace Room) or (the location is the Alchemists Lab) or (the location is the Storeroom) or (the location is the Antechamber) or (the location is Draculas Tomb) or (the location is the Secret Passage) or (the location is the Underground Lake Chamber):
 		let exit-list be "[exit-list]South ";
-	if the room east from the location is not nothing or (the location is the Underground Lake Chamber) or (the location is Aboard the Boat) or (the location is the Alchemists Lab) or (the location is the Torture Chamber):
+	if the room east from the location is not nothing or (the location is Aboard the Boat) or (the location is the Torture Chamber):
 		let exit-list be "[exit-list]East ";
 	if the room west from the location is not nothing or (the location is the Secret Passage) or (the location is the Torture Chamber):
 		let exit-list be "[exit-list]West ";

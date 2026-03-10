@@ -3,16 +3,16 @@ push bookcase
 down
 get rope
 north
-south
+north
 get bucket
 south
-east
+south
 up
 east
 east
 tie rope to parapets
 down
-south
+north
 get holywater
 drop bucket
 up
@@ -26,10 +26,10 @@ east
 down
 north
 get oil
-south
+north
 get crate
 south
-east
+south
 up
 east
 get axe
@@ -71,7 +71,7 @@ south
 take crate
 enter boat
 row
-east
+south
 south
 get axe
 hit crate with axe

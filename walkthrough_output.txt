@@ -49,7 +49,7 @@ You are in an Alchemist's Lab.
 
 You can see a flask of oil here.
 
-Obvious exits are: South East 
+Obvious exits are: North South 
 
 >Storeroom
 You are in a Storeroom.
@@ -65,7 +65,7 @@ You are in an Alchemist's Lab.
 
 You can see a flask of oil here.
 
-Obvious exits are: South East 
+Obvious exits are: North South 
 
 >Hidden Corridor
 You are in a Hidden Corridor.
@@ -104,10 +104,9 @@ You are in the Lower Tower.
 
 You can see an oar here.
 
-Obvious exits are: South Up 
+Obvious exits are: North Up 
 
->
-Chapel
+>Chapel
 You are in the Chapel.
 
 You can see a holywater here.
@@ -179,7 +178,7 @@ You are in an Alchemist's Lab.
 
 You can see a flask of oil here.
 
-Obvious exits are: South East 
+Obvious exits are: North South 
 
 >Taken.
 
@@ -195,7 +194,7 @@ Obvious exits are: South Up
 >Alchemist's Lab
 You are in an Alchemist's Lab.
 
-Obvious exits are: South East 
+Obvious exits are: North South 
 
 >Hidden Corridor
 You are in a Hidden Corridor.
@@ -236,7 +235,7 @@ You are in the Lower Tower.
 
 You can see an oar here.
 
-Obvious exits are: South Up 
+Obvious exits are: North Up 
 
 >Taken.
 
@@ -314,7 +313,7 @@ Obvious exits are: North South West
 >Underground Lake Chamber
 You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you. A small wooden boat sits at the water's edge.
 
-Obvious exits are: East 
+Obvious exits are: South 
 
 >You climb into the boat.
 
@@ -388,7 +387,7 @@ Obvious exits are: East
 Underground Lake Chamber
 You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you.
 
-Obvious exits are: East 
+Obvious exits are: South 
 
 >Secret Passage
 You are in a Secret Passage.
@@ -416,7 +415,7 @@ Obvious exits are: North South West
 >Underground Lake Chamber
 You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you. A small wooden boat sits at the water's edge.
 
-Obvious exits are: East 
+Obvious exits are: South 
 
 >You climb into the boat.
 
