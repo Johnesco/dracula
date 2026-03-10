@@ -22,7 +22,7 @@
 
 ## Storeroom
 
-> north
+> south
 
 # Pick up the bucket
 > get bucket
@@ -33,7 +33,7 @@
 
 ## Hidden Corridor
 
-> south
+> east
 
 ## Library
 
@@ -50,12 +50,12 @@
 # You tie the rope securely to the parapets!
 > tie rope to parapets
 # You climb down the rope. Lower Tower You are in the Lower Tower. Obvious
-#   exits are: North Up
+#   exits are: South Up
 > down
 
 ## Chapel
 
-> north
+> south
 
 # You collect the holy water in the bucket.
 > get holywater
@@ -106,7 +106,7 @@
 
 ## Storeroom
 
-> north
+> south
 
 # Pick up the crate
 > get crate
@@ -117,7 +117,7 @@
 
 ## Hidden Corridor
 
-> south
+> east
 
 ## Library
 
@@ -137,7 +137,7 @@
 # Pick up the hammer
 > get hammer
 # You climb down the rope. Lower Tower You are in the Lower Tower. Obvious
-#   exits are: North Up
+#   exits are: South Up
 > down
 # Pick up the oar
 > get oar
@@ -242,7 +242,7 @@
 
 ## Secret Passage
 
-> south
+> east
 
 ## Brick Fireplace
 
