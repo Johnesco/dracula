@@ -13,16 +13,14 @@ Explore the castle, gather tools and clues, and uncover its dark secret before m
 ```
 story.ni           Inform 7 source (edit here)
 src/basic/         Original BASIC source (read-only reference)
-web/               GitHub Pages site
-  index.html       Landing page
-  play.html        In-browser game player (Quixe)
-  dracula.ulx.js   Compiled game (base64 Glulx)
-  lib/             Client-side interpreter libraries
+index.html         Landing page
+play.html          In-browser game player (Parchment)
+lib/parchment/     Parchment engine + dracula.ulx.js (base64 Glulx)
 ```
 
 ## Building
 
-The Inform 7 source is `story.ni` at the repo root. To compile, open it in the [Inform 7 IDE](http://inform7.com/downloads/) or use the command-line compilers. After compiling, base64-encode the `.ulx` output into `web/dracula.ulx.js`.
+The Inform 7 source is `story.ni` at the repo root. To compile: `python /c/code/ifhub/tools/compile.py dracula`. This compiles the source and updates the web player binary at `lib/parchment/dracula.ulx.js`.
 
 ## Credits
 
