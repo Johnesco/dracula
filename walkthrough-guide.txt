@@ -1,11 +1,19 @@
+# Auto-generated walkthrough guide
+
+## Stage 1
+
 ## Library
 
 > east
+
+# Aha! You have revealed a doorway leading down!
 > push bookcase
 
 ## Hidden Corridor
 
 > down
+
+# Pick up the rope
 > get rope
 
 ## Alchemist's Lab
@@ -14,7 +22,9 @@
 
 ## Storeroom
 
-> south
+> north
+
+# Pick up the bucket
 > get bucket
 
 ## Alchemist's Lab
@@ -23,7 +33,7 @@
 
 ## Hidden Corridor
 
-> east
+> south
 
 ## Library
 
@@ -36,12 +46,18 @@
 ## Tower
 
 > east
+
+# You tie the rope securely to the parapets!
 > tie rope to parapets
+# You climb down the rope. Lower Tower You are in the Lower Tower. Obvious
+#   exits are: North Up
 > down
 
 ## Chapel
 
-> south
+> north
+
+# You collect the holy water in the bucket.
 > get holywater
 > drop bucket
 
@@ -60,12 +76,18 @@
 ## Study
 
 > west
+
+# The holy water douses the flames. The fire sputters and dies, leaving only
+#   smoldering ashes.
 > drop holywater
+# Pick up the cheese
 > get cheese
 
 ## Entrance Hall
 
 > east
+
+## Stage 2
 
 ## Library
 
@@ -78,11 +100,15 @@
 ## Alchemist's Lab
 
 > north
+
+# Pick up the oil
 > get oil
 
 ## Storeroom
 
-> south
+> north
+
+# Pick up the crate
 > get crate
 
 ## Alchemist's Lab
@@ -91,7 +117,7 @@
 
 ## Hidden Corridor
 
-> east
+> south
 
 ## Library
 
@@ -100,15 +126,24 @@
 ## Armory
 
 > east
+
+# Pick up the axe
 > get axe
 
 ## Tower
 
 > east
+
+# Pick up the hammer
 > get hammer
+# You climb down the rope. Lower Tower You are in the Lower Tower. Obvious
+#   exits are: North Up
 > down
+# Pick up the oar
 > get oar
 > up
+
+## Stage 3
 
 ## Armory
 
@@ -130,7 +165,10 @@
 
 > in
 > drop axe
+
+# Pick up the torch
 > get torch
+# You smash through the brickwork! A passage is revealed to the north!
 > hit wall with hammer
 
 ## Secret Passage
@@ -141,7 +179,10 @@
 
 > west
 > drop cheese
+
+# A rat scurries about -- a key is in its mouth!. A key is in its mouth!
 > examine rat
+# The rat takes the cheese and drops the key. You got the key!
 > take key
 
 ## Secret Passage
@@ -151,11 +192,19 @@
 ## Underground Lake Chamber
 
 > north
+
+# You climb into the boat. Aboard the Boat You are aboard a small boat on an
+#   underground lake. Obvious exits are: East
 > enter boat
+# You row across the underground lake... Gallery You are in the Gallery.
 > row
 > drop crate
 > drop oil
+
+# You stand on the crate and climb up to the overhang. Overhang You are on an
+#   Overhang high above the Gallery. Obvious exits are: Down
 > up
+# Using the hammer, you pry the nails loose. The tapestry is loose!
 > take nails
 
 ## Gallery
@@ -163,32 +212,49 @@
 > down
 > drop hammer
 > drop nails
+
+# AHA! A hole in the wall is revealed behind the tapestry!
 > take tapestry
 > drop tapestry
+
+# Pick up the oil
 > take oil
 
 ## Antechamber
 
 > north
+
+# The door squeaks open!
 > oil door
 
 ## Gallery
 
 > south
+
+# Pick up the crate
 > take crate
+# You climb into the boat. Aboard the Boat You are aboard a small boat on an
+#   underground lake. Obvious exits are: East
 > enter boat
+# You row across the underground lake... Underground Lake Chamber You are in
+#   an Underground Lake Chamber.
 > row
 
 ## Secret Passage
 
-> east
+> south
 
 ## Brick Fireplace
 
 > south
+
+# Pick up the axe
 > get axe
+# You chop the crate into wooden stakes!
 > hit crate with axe
 > drop axe
+
+## Stage 4
 
 ## Secret Passage
 
@@ -197,7 +263,12 @@
 ## Underground Lake Chamber
 
 > north
+
+# You climb into the boat. Aboard the Boat You are aboard a small boat on an
+#   underground lake. Obvious exits are: East
 > enter boat
+# You row across the underground lake... Gallery You are in the Gallery.
+#   Obvious exits are: North
 > row
 > drop oar
 
@@ -208,6 +279,8 @@
 ## Dracula's Tomb
 
 > north
+
+# You unlock and open the coffin... Dracula lies within!
 > open coffin
 
 ## Congratulations! You have KILLED Dracula at  9:26 p.m.!

@@ -1,0 +1,387 @@
+{
+  "title": "W E L C O M E",
+  "startRoom": "entrance-hall",
+  "rooms": [
+    {
+      "id": "entrance-hall",
+      "name": "Entrance Hall",
+      "description": "You are in the Entrance Hall of a dark castle. A sign hangs on the wall.",
+      "visits": 4,
+      "x": 2,
+      "y": 5,
+      "cx": 400,
+      "cy": 660
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "description": "You are in the Library. A large bookcase lines one wall.",
+      "visits": 6,
+      "x": 3,
+      "y": 5,
+      "cx": 560,
+      "cy": 660
+    },
+    {
+      "id": "hidden-corridor",
+      "name": "Hidden Corridor",
+      "description": "You are in a Hidden Corridor.",
+      "visits": 4,
+      "x": 3,
+      "y": 6,
+      "cx": 560,
+      "cy": 780
+    },
+    {
+      "id": "alchemist-s-lab",
+      "name": "Alchemist's Lab",
+      "description": "You are in an Alchemist's Lab.",
+      "visits": 4,
+      "x": 3,
+      "y": 4,
+      "cx": 560,
+      "cy": 540
+    },
+    {
+      "id": "storeroom",
+      "name": "Storeroom",
+      "description": "You are in a Storeroom.",
+      "visits": 2,
+      "x": 3,
+      "y": 3,
+      "cx": 560,
+      "cy": 420
+    },
+    {
+      "id": "armory",
+      "name": "Armory",
+      "description": "You are in the Armory.",
+      "visits": 4,
+      "x": 4,
+      "y": 5,
+      "cx": 720,
+      "cy": 660
+    },
+    {
+      "id": "tower",
+      "name": "Tower",
+      "description": "You are in the Tower. Stone parapets overlook a dizzying drop.",
+      "visits": 3,
+      "x": 5,
+      "y": 5,
+      "cx": 880,
+      "cy": 660
+    },
+    {
+      "id": "chapel",
+      "name": "Chapel",
+      "description": "You are in the Chapel.",
+      "visits": 1,
+      "x": 5,
+      "y": 4,
+      "cx": 880,
+      "cy": 540
+    },
+    {
+      "id": "study",
+      "name": "Study",
+      "description": "You are in the Study. A fire crackles in a large brick fireplace.",
+      "visits": 2,
+      "x": 1,
+      "y": 5,
+      "cx": 240,
+      "cy": 660
+    },
+    {
+      "id": "brick-fireplace",
+      "name": "Brick Fireplace",
+      "description": "You are in a Brick Fireplace. Solid brickwork surrounds you.",
+      "visits": 2,
+      "x": 1,
+      "y": 4,
+      "cx": 240,
+      "cy": 540
+    },
+    {
+      "id": "secret-passage",
+      "name": "Secret Passage",
+      "description": "You are in a Secret Passage.",
+      "visits": 4,
+      "x": 1,
+      "y": 3,
+      "cx": 240,
+      "cy": 420
+    },
+    {
+      "id": "torture-chamber",
+      "name": "Torture Chamber",
+      "description": "You are in the Torture Chamber. A rat scurries about in the shadows.",
+      "visits": 1,
+      "x": 0,
+      "y": 3,
+      "cx": 80,
+      "cy": 420
+    },
+    {
+      "id": "underground-lake-chamber",
+      "name": "Underground Lake Chamber",
+      "description": "You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you. A small wooden boat sits at the water's edge.",
+      "visits": 2,
+      "x": 1,
+      "y": 2,
+      "cx": 240,
+      "cy": 300
+    },
+    {
+      "id": "gallery",
+      "name": "Gallery",
+      "description": "You are in the Gallery. A small wooden boat is moored at the water's edge.",
+      "visits": 2,
+      "x": 0,
+      "y": 2,
+      "cx": 80,
+      "cy": 300
+    },
+    {
+      "id": "antechamber",
+      "name": "Antechamber",
+      "description": "You are in the Antechamber. A rusty iron door blocks the way north.",
+      "visits": 2,
+      "x": 1,
+      "y": 1,
+      "cx": 240,
+      "cy": 180
+    },
+    {
+      "id": "dracula-s-tomb",
+      "name": "Dracula's Tomb",
+      "description": "You are in Dracula's Tomb. A large closed coffin dominates the chamber.",
+      "visits": 1,
+      "x": 1,
+      "y": 0,
+      "cx": 240,
+      "cy": 60
+    },
+    {
+      "id": "congratulations-you-have-killed-dracula-at-9-26-p-m",
+      "name": "Congratulations! You have KILLED Dracula at  9:26 p.m.!",
+      "description": "*** You have won ***",
+      "visits": 1,
+      "x": 2,
+      "y": 0,
+      "cx": 400,
+      "cy": 60
+    }
+  ],
+  "edges": [
+    {
+      "from": "entrance-hall",
+      "to": "library",
+      "direction": "e",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "library",
+      "to": "hidden-corridor",
+      "direction": "d",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "hidden-corridor",
+      "to": "alchemist-s-lab",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "alchemist-s-lab",
+      "to": "storeroom",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "storeroom",
+      "to": "alchemist-s-lab",
+      "direction": "s",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "alchemist-s-lab",
+      "to": "hidden-corridor",
+      "direction": "s",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "hidden-corridor",
+      "to": "library",
+      "direction": "u",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "library",
+      "to": "armory",
+      "direction": "e",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "armory",
+      "to": "tower",
+      "direction": "e",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "tower",
+      "to": "chapel",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "chapel",
+      "to": "armory",
+      "direction": "u",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "armory",
+      "to": "library",
+      "direction": "w",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "library",
+      "to": "entrance-hall",
+      "direction": "w",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "entrance-hall",
+      "to": "study",
+      "direction": "w",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "study",
+      "to": "entrance-hall",
+      "direction": "e",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "tower",
+      "to": "armory",
+      "direction": "w",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "study",
+      "to": "brick-fireplace",
+      "direction": "in",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "brick-fireplace",
+      "to": "secret-passage",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "secret-passage",
+      "to": "torture-chamber",
+      "direction": "w",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "torture-chamber",
+      "to": "secret-passage",
+      "direction": "e",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "secret-passage",
+      "to": "underground-lake-chamber",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "underground-lake-chamber",
+      "to": "gallery",
+      "direction": "d",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "gallery",
+      "to": "antechamber",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "antechamber",
+      "to": "gallery",
+      "direction": "s",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "gallery",
+      "to": "secret-passage",
+      "direction": "s",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "secret-passage",
+      "to": "brick-fireplace",
+      "direction": "s",
+      "isStandard": true,
+      "bidirectional": true
+    },
+    {
+      "from": "underground-lake-chamber",
+      "to": "antechamber",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "antechamber",
+      "to": "dracula-s-tomb",
+      "direction": "n",
+      "isStandard": true,
+      "bidirectional": false
+    },
+    {
+      "from": "dracula-s-tomb",
+      "to": "congratulations-you-have-killed-dracula-at-9-26-p-m",
+      "direction": "attack coffin",
+      "isStandard": false,
+      "bidirectional": false
+    }
+  ],
+  "viewBox": [
+    -45,
+    -22,
+    1050,
+    884
+  ]
+}
