@@ -1,8 +1,8 @@
 {
   "game": "Dracula's Castle",
-  "regtest_file": "dracula\\tests\\dracula.regtest",
+  "regtest_file": "C:\\code\\text-games\\i7\\dracula\\tests\\dracula.regtest",
   "seed": "1",
-  "duration_seconds": 0.4,
+  "duration_seconds": 0.5,
   "total": 2,
   "passed": 2,
   "failed": 0,
@@ -12,16 +12,28 @@
     "full-run"
   ],
   "primary": "full-run",
+  "assertions": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0
+  },
   "scenarios": [
     {
       "name": "startup",
-      "commands": 1,
-      "transcript_lines": 43,
-      "exit_code": 0,
-      "output_file": "dracula\\tests\\scenarios\\startup.transcript.txt",
-      "commands_file": "dracula\\tests\\scenarios\\startup.commands.txt",
-      "seed": "1",
       "status": "pass",
+      "seed": "1",
+      "commands": 1,
+      "transcript_lines": 39,
+      "exit_code": 0,
+      "transcript_file": "C:\\code\\text-games\\i7\\dracula\\tests\\scenarios\\startup.transcript.txt",
+      "commands_file": "C:\\code\\text-games\\i7\\dracula\\tests\\scenarios\\startup.commands.txt",
+      "assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0,
+        "failures": [],
+        "details": []
+      },
       "score": "0/1",
       "win": false,
       "won_text": false,
@@ -38,13 +50,20 @@
     },
     {
       "name": "full-run",
-      "commands": 87,
-      "transcript_lines": 644,
-      "exit_code": 0,
-      "output_file": "dracula\\tests\\scenarios\\full-run.transcript.txt",
-      "commands_file": "dracula\\tests\\scenarios\\full-run.commands.txt",
-      "seed": "1",
       "status": "pass",
+      "seed": "1",
+      "commands": 87,
+      "transcript_lines": 641,
+      "exit_code": 0,
+      "transcript_file": "C:\\code\\text-games\\i7\\dracula\\tests\\scenarios\\full-run.transcript.txt",
+      "commands_file": "C:\\code\\text-games\\i7\\dracula\\tests\\scenarios\\full-run.commands.txt",
+      "assertions": {
+        "total": 0,
+        "passed": 0,
+        "failed": 0,
+        "failures": [],
+        "details": []
+      },
       "score": "1/1",
       "win": true,
       "won_text": true,

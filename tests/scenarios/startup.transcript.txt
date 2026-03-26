@@ -37,7 +37,3 @@ Obvious exits are: East West
 
 > score
 You have so far scored 0 out of a possible 1, in 2 turns.
-
-
-> quit
-Are you sure you want to quit? 
