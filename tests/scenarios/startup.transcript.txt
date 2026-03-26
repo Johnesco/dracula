@@ -1,0 +1,43 @@
+
+
+
+
+W E L C O M E
+TO DRACULA'S CASTLE ADVENTURE
+ENTER IF YOU DARE
+
+Dracula's Castle has a concealed goal. You will learn the goal by exploring your surroundings. The computer will act as your hands and eyes.
+
+Important words: GET, DROP, LOOK, GO, INVENTORY, PUSH, TIE, HIT, OIL, ROW, OPEN, KILL.
+
+Direction abbreviations: N, S, E, W, U, D.
+
+--- GOOD LUCK ---
+
+Dracula's Castle
+An Interactive Adventure by Anonymous
+Release 1 / Serial number 260322 / Inform 7 v10.1.2 / D
+
+Entrance Hall
+You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
+
+You can see a timepiece here.
+
+Obvious exits are: East West 
+
+
+> look
+Entrance Hall
+You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
+
+You can see a timepiece here.
+
+Obvious exits are: East West 
+
+
+> score
+You have so far scored 0 out of a possible 1, in 2 turns.
+
+
+> quit
+Are you sure you want to quit? 

@@ -25,7 +25,9 @@ You can see a timepiece here.
 
 Obvious exits are: East West 
 
->
+
+> east
+
 Library
 You are in the Library. A large bookcase lines one wall.
 
@@ -33,53 +35,73 @@ You can see a parchment scroll here.
 
 Obvious exits are: East West 
 
->Aha! You have revealed a doorway leading down!
 
->Hidden Corridor
+> push bookcase
+Aha! You have revealed a doorway leading down!
+
+
+> down
+Hidden Corridor
 You are in a Hidden Corridor.
 
 You can see a coil of rope here.
 
 Obvious exits are: North Up 
 
->Taken.
 
->Alchemist's Lab
+> get rope
+Taken.
+
+
+> north
+Alchemist's Lab
 You are in an Alchemist's Lab.
 
 You can see a flask of oil here.
 
 Obvious exits are: North South 
 
->Storeroom
+
+> north
+Storeroom
 You are in a Storeroom.
 
 You can see a crate and a bucket here.
 
 Obvious exits are: South Up 
 
->Taken.
 
->Alchemist's Lab
+> get bucket
+Taken.
+
+
+> south
+Alchemist's Lab
 You are in an Alchemist's Lab.
 
 You can see a flask of oil here.
 
 Obvious exits are: North South 
 
->Hidden Corridor
+
+> south
+Hidden Corridor
 You are in a Hidden Corridor.
 
 Obvious exits are: North Up 
 
->Library
+
+> up
+Library
 You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
 Obvious exits are: East West Down 
 
->
+
+> east
+
 Armory
 You are in the Armory.
 
@@ -87,7 +109,9 @@ You can see an axe here.
 
 Obvious exits are: East West 
 
->
+
+> east
+
 Tower
 You are in the Tower. Stone parapets overlook a dizzying drop.
 
@@ -95,9 +119,13 @@ You can see a sledge hammer here.
 
 Obvious exits are: West 
 
->You tie the rope securely to the parapets!
 
->You climb down the rope.
+> tie rope to parapets
+You tie the rope securely to the parapets!
+
+
+> down
+You climb down the rope.
 
 Lower Tower
 You are in the Lower Tower.
@@ -106,25 +134,35 @@ You can see an oar here.
 
 Obvious exits are: North Up 
 
->Chapel
+
+> north
+Chapel
 You are in the Chapel.
 
 You can see a holywater here.
 
 Obvious exits are: North Up 
 
->You collect the holy water in the bucket.
 
->Dropped.
+> get holywater
+You collect the holy water in the bucket.
 
->Armory
+
+> drop bucket
+Dropped.
+
+
+> up
+Armory
 You are in the Armory.
 
 You can see an axe here.
 
 Obvious exits are: East West 
 
->
+
+> west
+
 Library
 You are in the Library. A large bookcase lines one wall.
 
@@ -132,7 +170,9 @@ You can see a parchment scroll here.
 
 Obvious exits are: East West Down 
 
->
+
+> west
+
 Entrance Hall
 You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
 
@@ -140,7 +180,9 @@ You can see a timepiece here.
 
 Obvious exits are: East West 
 
->
+
+> west
+
 Study
 You are in the Study. A fire crackles in a large brick fireplace.
 
@@ -148,11 +190,17 @@ You can see a wine and a cheddar cheese here.
 
 Obvious exits are: East 
 
->The holy water douses the flames. The fire sputters and dies, leaving only smoldering ashes.
 
->Taken.
+> drop holywater
+The holy water douses the flames. The fire sputters and dies, leaving only smoldering ashes.
 
->
+
+> get cheese
+Taken.
+
+
+> east
+
 Entrance Hall
 You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
 
@@ -160,7 +208,9 @@ You can see a timepiece here.
 
 Obvious exits are: East West 
 
->
+
+> east
+
 Library
 You are in the Library. A large bookcase lines one wall.
 
@@ -168,47 +218,65 @@ You can see a parchment scroll here.
 
 Obvious exits are: East West Down 
 
->Hidden Corridor
+
+> down
+Hidden Corridor
 You are in a Hidden Corridor.
 
 Obvious exits are: North Up 
 
->Alchemist's Lab
+
+> north
+Alchemist's Lab
 You are in an Alchemist's Lab.
 
 You can see a flask of oil here.
 
 Obvious exits are: North South 
 
->Taken.
 
->Storeroom
+> get oil
+Taken.
+
+
+> north
+Storeroom
 You are in a Storeroom.
 
 You can see a crate here.
 
 Obvious exits are: South Up 
 
->Taken.
 
->Alchemist's Lab
+> get crate
+Taken.
+
+
+> south
+Alchemist's Lab
 You are in an Alchemist's Lab.
 
 Obvious exits are: North South 
 
->Hidden Corridor
+
+> south
+Hidden Corridor
 You are in a Hidden Corridor.
 
 Obvious exits are: North Up 
 
->Library
+
+> up
+Library
 You are in the Library. A large bookcase lines one wall.
 
 You can see a parchment scroll here.
 
 Obvious exits are: East West Down 
 
->
+
+> east
+
 Armory
 You are in the Armory.
 
@@ -216,9 +284,13 @@ You can see an axe here.
 
 Obvious exits are: East West 
 
->Taken.
 
->
+> get axe
+Taken.
+
+
+> east
+
 Tower
 You are in the Tower. A rope is tied to the stone parapets, leading down.
 
@@ -226,9 +298,13 @@ You can see a sledge hammer here.
 
 Obvious exits are: West Down 
 
->Taken.
 
->You climb down the rope.
+> get hammer
+Taken.
+
+
+> down
+You climb down the rope.
 
 Lower Tower
 You are in the Lower Tower.
@@ -237,20 +313,28 @@ You can see an oar here.
 
 Obvious exits are: North Up 
 
->Taken.
 
->Tower
+> get oar
+Taken.
+
+
+> up
+Tower
 You are in the Tower. A rope is tied to the stone parapets, leading down.
 
 Obvious exits are: West Down 
 
->
+
+> west
+
 Armory
 You are in the Armory.
 
 Obvious exits are: East West 
 
->
+
+> west
+
 Library
 You are in the Library. A large bookcase lines one wall.
 
@@ -258,7 +342,9 @@ You can see a parchment scroll here.
 
 Obvious exits are: East West Down 
 
->
+
+> west
+
 Entrance Hall
 You are in the Entrance Hall of a dark castle. A sign hangs on the wall.
 
@@ -266,7 +352,9 @@ You can see a timepiece here.
 
 Obvious exits are: East West 
 
->
+
+> west
+
 Study
 You are in the Study. Smoldering ashes fill a large brick fireplace.
 
@@ -274,66 +362,98 @@ You can see a wine here.
 
 Obvious exits are: East 
 
->Brick Fireplace
+
+> in
+Brick Fireplace
 You are in a Brick Fireplace. Solid brickwork surrounds you.
 
 You can see a torch here.
 
 Obvious exits are: South 
 
->Dropped.
 
->Taken.
+> drop axe
+Dropped.
 
->You smash through the brickwork! A passage is revealed to the north!
 
->Secret Passage
+> get torch
+Taken.
+
+
+> hit wall with hammer
+You smash through the brickwork! A passage is revealed to the north!
+
+
+> north
+Secret Passage
 You are in a Secret Passage.
 
 Obvious exits are: North South West 
 
->Torture Chamber
+
+> west
+Torture Chamber
 You are in the Torture Chamber. A rat scurries about in the shadows.
 
 Obvious exits are: East West 
 
->Dropped.
 
->A rat scurries about -- a key is in its mouth!.
+> drop cheese
+Dropped.
+
+
+> examine rat
+A rat scurries about -- a key is in its mouth!.
 
 A key is in its mouth!
 
->The rat takes the cheese and drops the key. You got the key!
 
->Secret Passage
+> take key
+The rat takes the cheese and drops the key. You got the key!
+
+
+> east
+Secret Passage
 You are in a Secret Passage.
 
 Obvious exits are: North South West 
 
->Underground Lake Chamber
+
+> north
+Underground Lake Chamber
 You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you. A small wooden boat sits at the water's edge.
 
 Obvious exits are: South 
 
->You climb into the boat.
+
+> enter boat
+You climb into the boat.
 
 Aboard the Boat
 You are aboard a small boat on an underground lake.
 
 Obvious exits are: East 
 
->You row across the underground lake...
+
+> row
+You row across the underground lake...
 
 Gallery
 You are in the Gallery.
 
 You can see a tapestry here.
 
->Dropped.
 
->Dropped.
+> drop crate
+Dropped.
 
->You stand on the crate and climb up to the overhang.
+
+> drop oil
+Dropped.
+
+
+> up
+You stand on the crate and climb up to the overhang.
 
 Overhang
 You are on an Overhang high above the Gallery.
@@ -342,89 +462,133 @@ You can see a nails here.
 
 Obvious exits are: Down 
 
->Using the hammer, you pry the nails loose. The tapestry is loose!
 
->Gallery
+> take nails
+Using the hammer, you pry the nails loose. The tapestry is loose!
+
+
+> down
+Gallery
 You are in the Gallery. A small wooden boat is moored at the water's edge.
 
 You can see a flask of oil, a crate and a tapestry here.
 
->Dropped.
 
->Dropped.
+> drop hammer
+Dropped.
 
->AHA! A hole in the wall is revealed behind the tapestry!
 
->Dropped.
+> drop nails
+Dropped.
 
->Taken.
 
->Antechamber
+> take tapestry
+AHA! A hole in the wall is revealed behind the tapestry!
+
+
+> drop tapestry
+Dropped.
+
+
+> take oil
+Taken.
+
+
+> north
+Antechamber
 You are in the Antechamber. A rusty iron door blocks the way north.
 
 Obvious exits are: South 
 
->The door squeaks open!
 
->Gallery
+> oil door
+The door squeaks open!
+
+
+> south
+Gallery
 You are in the Gallery. A small wooden boat is moored at the water's edge.
 
 You can see a tapestry, a nails, a sledge hammer and a crate here.
 
 Obvious exits are: North 
 
->Taken.
 
->You climb into the boat.
+> take crate
+Taken.
+
+
+> enter boat
+You climb into the boat.
 
 Aboard the Boat
 You are aboard a small boat on an underground lake.
 
 Obvious exits are: East 
 
->You row across the underground lake...
+
+> row
+You row across the underground lake...
 
 Underground Lake Chamber
 You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you.
 
 Obvious exits are: South 
 
->Secret Passage
+
+> south
+Secret Passage
 You are in a Secret Passage.
 
 Obvious exits are: North South West 
 
->Brick Fireplace
+
+> south
+Brick Fireplace
 You are in a Brick Fireplace. The wall has been smashed open, revealing a passage to the north.
 
 You can see an axe here.
 
 Obvious exits are: North South 
 
->Taken.
 
->You chop the crate into wooden stakes!
+> get axe
+Taken.
 
->Dropped.
 
->Secret Passage
+> hit crate with axe
+You chop the crate into wooden stakes!
+
+
+> drop axe
+Dropped.
+
+
+> north
+Secret Passage
 You are in a Secret Passage.
 
 Obvious exits are: North South West 
 
->Underground Lake Chamber
+
+> north
+Underground Lake Chamber
 You are in an Underground Lake Chamber. The dark waters of an underground lake stretch before you. A small wooden boat sits at the water's edge.
 
 Obvious exits are: South 
 
->You climb into the boat.
+
+> enter boat
+You climb into the boat.
 
 Aboard the Boat
 You are aboard a small boat on an underground lake.
 
 Obvious exits are: East 
 
->You row across the underground lake...
+
+> row
+You row across the underground lake...
 
 Gallery
 You are in the Gallery.
@@ -433,21 +597,31 @@ You can see a tapestry, a nails and a sledge hammer here.
 
 Obvious exits are: North 
 
->Dropped.
 
->Antechamber
+> drop oar
+Dropped.
+
+
+> north
+Antechamber
 You are in the Antechamber. An open door leads north.
 
 Obvious exits are: North South 
 
->Dracula's Tomb
+
+> north
+Dracula's Tomb
 You are in Dracula's Tomb. A large closed coffin dominates the chamber.
 
 Obvious exits are: South 
 
->You unlock and open the coffin... Dracula lies within!
 
->
+> open coffin
+You unlock and open the coffin... Dracula lies within!
+
+
+> attack coffin
+
 
 Congratulations! You have KILLED Dracula at  9:26 p.m.!
 
@@ -460,5 +634,11 @@ In that game you scored 1 out of a possible 1, in 87 turns.
 
 
 Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last command or REWIND?
-> 
-<end of input>
+
+> score
+ Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT, UNDO the last command or REWIND?
+
+> quit
+ 

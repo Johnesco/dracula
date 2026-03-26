@@ -1,0 +1,31 @@
+{
+  "game": "Dracula's Castle",
+  "timestamp": "2026-03-25T19:51:58+00:00",
+  "binary_hash": "35954c01",
+  "duration_seconds": 0.9,
+  "layers": {
+    "plotex": {
+      "status": "skip",
+      "detail": "not configured"
+    },
+    "regtest": {
+      "status": "fail",
+      "detail": "0 assertion(s) failed",
+      "failures": []
+    },
+    "scenarios": {
+      "status": "pass",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "wins": 1,
+      "win_scenarios": [
+        "full-run"
+      ],
+      "duration": 0.5,
+      "primary_walkthrough": "full-run"
+    }
+  },
+  "overall": "fail"
+}
