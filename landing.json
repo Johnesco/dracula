@@ -1,0 +1,31 @@
+{
+  "title": "Dracula's Castle",
+  "meta": "A Text Adventure \u2014 BASIC & Inform 7",
+  "subtitle": "A Text Adventure \u2014 BASIC & Inform 7",
+  "description": "Explore Dracula's Castle and uncover its dark secret before midnight strikes. The classic 1980s BASIC adventure, plus a faithful Inform 7 translation.",
+  "primaryCtaLabel": "\u2192 Play the Inform 7 version",
+  "introHtml": "<div class=\"credits-box\">\n  <h3>Original Game</h3>\n  <p><em>Dracula's Castle</em> is a classic BASIC text adventure from the early 1980s, part of a wave of type-in vampire castle games that flourished on home computers of the era \u2014 alongside titles like <a href=\"https://bluerenga.blog/2019/12/08/vampire-castle-1980/\">Vampire Castle</a> (1980) by Mike Bassman, <a href=\"https://en.wikipedia.org/wiki/The_Count_(video_game)\">The Count</a> (1979) by Scott Adams, and <a href=\"https://bluerenga.blog/2025/08/23/castle-dracula-1983/\">Castle Dracula</a> (1983) by Paul T. Johnson. These games defined a genre: explore a gothic castle, gather items, solve puzzles, and destroy the vampire before time runs out. The original BASIC source for this version was written for home microcomputers with ANSI terminal support and represents the ingenuity of an era when entire adventure games fit in a few kilobytes of code.</p>\n\n  <h3>Inform 7 Translation</h3>\n  <p>This project includes a faithful translation into <a href=\"https://ganelson.github.io/inform-website/\">Inform 7</a>, the groundbreaking natural-language interactive fiction system created by <a href=\"https://en.wikipedia.org/wiki/Graham_Nelson\">Graham Nelson</a>. Inform 7 allows authors to write interactive fiction in something close to English prose \u2014 a radical departure from traditional programming that opened the art form to writers of all backgrounds. Graham Nelson also created the original <a href=\"https://www.inform-fiction.org/\">Inform</a> compiler (1993) and authored <em>Curses</em>, one of the landmark works of the post-Infocom era.</p>\n  <p><a href=\"https://en.wikipedia.org/wiki/Emily_Short\">Emily Short</a> contributed enormously to Inform 7, writing most of the 300+ programming examples in the documentation and creating demo games that showed what the system could do. Her own works \u2014 <em>Galatea</em>, <em>Counterfeit Monkey</em>, <em>Bronze</em>, and many others \u2014 are landmarks of interactive fiction. <a href=\"https://github.com/ganelson/inform\">Andrew Hunter</a> built the Inform 7 IDE for macOS, and countless contributors have extended the system with extensions, tools, and interpreters.</p>\n</div>\n\n<p>The castle contains 19 rooms, 25 objects, and over a dozen interlocking puzzles \u2014 from extinguishing fires and smashing through brickwork to rowing across underground lakes and staking vampires. A real-time clock ticks from 8:00 PM; if you haven't killed Dracula by midnight, he wakes and finds you.</p>",
+  "outroHtml": "<h2>Key Puzzles</h2>\n<ol class=\"puzzle-list\">\n  <li>Read the sign to discover the goal \u2014 kill Dracula before midnight</li>\n  <li>Push the bookcase in the Library to reveal a hidden passage</li>\n  <li>Drop the flask of oil on the fire to enter the fireplace</li>\n  <li>Smash the brick fireplace with the sledge hammer</li>\n  <li>Tie rope to the parapets and climb down the tower</li>\n  <li>Row the boat across the underground lake</li>\n  <li>Use the crate to climb to the overhang, pry out nails, pull the tapestry</li>\n  <li>Chop the crate into wooden stakes with the axe</li>\n  <li>Oil the rusty door to reach Dracula's tomb</li>\n  <li>Lure the rat with cheese to get the key</li>\n  <li>Open the coffin and stake Dracula</li>\n</ol>\n\n<h2>Acknowledgments</h2>\n<p>Inform 7 \u2014 <a href=\"https://ganelson.github.io/inform-website/\">project site</a> \u00b7 <a href=\"https://en.wikipedia.org/wiki/Graham_Nelson\">Graham Nelson</a> \u00b7 <a href=\"https://en.wikipedia.org/wiki/Emily_Short\">Emily Short</a> \u00b7 <a href=\"https://github.com/ganelson/inform\">compiler</a> \u00b7 <a href=\"https://i7-dungeon.sourceforge.net/index.html\">Dean Menezes' Inform 7 Dungeon Port</a>. IF community: <a href=\"https://intfiction.org/\">IntFiction Forum</a> \u00b7 <a href=\"https://ifdb.org/\">IFDB</a>. BASIC runtime: <a href=\"https://github.com/google/wwwbasic\">wwwBASIC</a> by Google.</p>",
+  "versions": {
+    "dracula": {
+      "summary": "A faithful Inform 7 translation of the original BASIC adventure. The 19-room map, 25 objects, midnight clock, and every puzzle are preserved \u2014 but expressed through Inform 7's natural-language rules, named actions, and built-in world model rather than the original's encoded verb/noun lookup tables.",
+      "features": [
+        "All 19 rooms, 25 objects, and the full dozen-plus interlocking puzzles",
+        "Real-time clock ticking from 8:00 PM; Dracula wakes at midnight if you haven't staked him",
+        "Natural-language source written in Inform 7 (story.ni)",
+        "Compiled to Glulx (.ulx) and played in-browser via Parchment",
+        "Walkthrough, source browser, and IF Hub framed view"
+      ]
+    },
+    "dracula-v0": {
+      "summary": "The original 1980s BASIC text adventure, playable in your browser via wwwBASIC (Google's JavaScript BASIC interpreter). Renders to a CP437 canvas with the original castle ASCII art intact; ships with an annotated source view that explains the data-driven engine, the verb/noun encoding tables, and the puzzle logic.",
+      "features": [
+        "Runs the original GW-BASIC source on Google's wwwBASIC (compiled to JS at load)",
+        "Patched scalar/array name collision (L vs L()) so the object-location array survives",
+        "Compatibility fixes: NEXT X,Y split; explicit PRINT separators; GOTO 0 in place of RUN 0",
+        "Custom wwwbasic.js patch to emit spaces for TAB(n) so the castle art renders cleanly",
+        "Annotated source viewer covering the engine, lookup tables, and puzzle structure"
+      ]
+    }
+  }
+}
