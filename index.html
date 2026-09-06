@@ -194,7 +194,7 @@ footer a { color: #887755; border-bottom-color: #3a3020; }
     <li>Compiled to Glulx (.ulx) and played in-browser via Parchment</li>
     <li>Walkthrough, source browser, and IF Hub framed view</li>
   </ul>
-  <div class="version-action" data-gid="dracula" data-play="/dracula/play.html" data-source="/dracula/story.ni" data-walkthrough="/dracula/walkthrough.html">
+  <div class="version-action" data-gid="dracula" data-play="/dracula/play.html" data-source="/dracula/story.ni" data-walkthrough="/dracula/walkthrough.txt">
     <select class="va-action"><option value="play">Play Game</option><option value="source">View Source</option><option value="walkthrough">View Walkthrough</option></select>
     <label class="va-fs"><input type="checkbox"> Fullscreen</label>
     <button class="va-go" type="button">GO</button>
@@ -211,8 +211,8 @@ footer a { color: #887755; border-bottom-color: #3a3020; }
     <li>Custom wwwbasic.js patch to emit spaces for TAB(n) so the castle art renders cleanly</li>
     <li>Annotated source viewer covering the engine, lookup tables, and puzzle structure</li>
   </ul>
-  <div class="version-action" data-gid="dracula-v0" data-play="/dracula-v0/play.html" data-source="/dracula-v0/source.html" data-walkthrough="/dracula-v0/walkthrough.html">
-    <select class="va-action"><option value="play">Play Game</option><option value="source">View Source</option><option value="walkthrough">View Walkthrough</option></select>
+  <div class="version-action" data-gid="dracula-v0" data-play="/dracula-v0/play.html" data-source="/dracula-v0/source.html" data-walkthrough="">
+    <select class="va-action"><option value="play">Play Game</option><option value="source">View Source</option></select>
     <label class="va-fs"><input type="checkbox"> Fullscreen</label>
     <button class="va-go" type="button">GO</button>
   </div>
@@ -254,7 +254,8 @@ document.addEventListener('click', function(ev) {
   var view = action === 'source' ? 'source'
            : action === 'walkthrough' ? 'walkthrough'
            : 'game';
-  window.location.href = fullscreen ? url : ('/ifhub/app.html?game=' + gid + '&view=' + view);
+  // Fullscreen opens the game's own play page; source and walkthrough are hub views.
+  window.location.href = (fullscreen && action === 'play') ? url : ('/ifhub/app.html?game=' + gid + '&view=' + view);
 });
 </script>
 
